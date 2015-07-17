@@ -10,3 +10,8 @@ Hints for the first problem:
 NOTE: use a `for` loop to make this happen.
 
 */
+
+var sum = function(options) {
+  var flag = 0;
+  for (var i = 0; i < options; i++) {
+    flag += 
