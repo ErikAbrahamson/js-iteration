@@ -10,3 +10,11 @@ Hints for the first problem:
 NOTE: use a loop to make this happen.
 
 */
+
+function sum(options) {
+  var answer = null;
+  for (var i = 0; i < options.length; i++) {
+    answer += Number(options[i].value);
+  }
+  return answer;
+}
