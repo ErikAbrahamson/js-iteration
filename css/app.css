@@ -7,3 +7,8 @@ select[multiple].all-prices {
   width: 100%;
   height: 29em;
 }
+
+span {
+  font-size: 28px;
+  font-weight: bold;
+}

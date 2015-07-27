@@ -18,3 +18,7 @@ function sum(options) {
   }
   return answer;
 }
+
+function count(options) {
+  return options.selectedOptions.length;
+}
